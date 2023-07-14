@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo01-Inversion", "Exo01-Inversion\Exo01-Inversion.csproj", "{3BE609C4-3A50-4375-9ADE-199A4AF09FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo02-ConvertisseurSecondes", "Exo02-ConvertisseurSecondes\Exo02-ConvertisseurSecondes.csproj", "{969F8CC6-C81A-4AE0-8FCE-432600017AEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BE609C4-3A50-4375-9ADE-199A4AF09FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE609C4-3A50-4375-9ADE-199A4AF09FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE609C4-3A50-4375-9ADE-199A4AF09FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE609C4-3A50-4375-9ADE-199A4AF09FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969F8CC6-C81A-4AE0-8FCE-432600017AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969F8CC6-C81A-4AE0-8FCE-432600017AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969F8CC6-C81A-4AE0-8FCE-432600017AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969F8CC6-C81A-4AE0-8FCE-432600017AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40E4CD3A-0FA7-455E-AB64-06257DAD335D}
+	EndGlobalSection
+EndGlobal
