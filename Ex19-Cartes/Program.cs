@@ -36,3 +36,20 @@ foreach (Carte carte in paquet)
 {
     Console.WriteLine($"{carte.valeur} de {carte.couleur}");
 }
+
+Random RNG = new Random();
+
+for(int pass = 0; pass < 100; pass++)
+{
+    int indice_first = RNG.Next(paquet.Length);
+    int indice_last = RNG.Next(paquet.Length);
+
+    Carte temp = paquet[indice_first];
+    paquet[indice_first] = paquet[indice_last];
+    paquet[indice_last] = temp;
+}
+
+foreach (Carte carte in paquet)
+{
+    Console.WriteLine($"{carte.valeur} de {carte.couleur}");
+}
